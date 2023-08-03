@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# Documentação da Aplicação Pomodoro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introdução
 
-## Available Scripts
+A Aplicação Pomodoro é uma aplicação simples e interativa desenvolvida para ajudar os usuários a gerenciar seu tempo usando a técnica Pomodoro. A técnica Pomodoro é um método de gerenciamento de tempo que divide o trabalho em intervalos curtos de foco intenso, seguidos por pequenos intervalos de descanso. Esta aplicação utiliza TypeScript (TSX) e a biblioteca React para criar uma experiência de usuário eficaz.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+A Aplicação Pomodoro oferece as seguintes funcionalidades:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Contagem Regressiva: Exibe uma contagem regressiva durante o intervalo de trabalho e o intervalo de descanso.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Feedback Visual: Fornece feedback visual para indicar quando é hora de começar e terminar os intervalos.
 
-### `npm test`
+- Feedback Sonoro: Além do feedback visual, a aplicação reproduzirá sons específicos para indicar o início e o término de cada intervalo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Ciclos Contínuos: Permite que os usuários realizem múltiplos ciclos de trabalho-descanso, seguindo a técnica Pomodoro.
 
-### `npm run build`
+## Requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Linguagem de Programação**: TypeScript (TSX)
+- **Biblioteca**: React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dependências
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As seguintes dependências estão sendo utilizadas para o desenvolvimento da aplicação:
 
-### `npm run eject`
+**Dependencies:**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- react
+- react-dom
+- react-scripts
+- typescript
+- web-vitals
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Dev Dependencies:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- eslint-config-prettier
+- eslint-plugin-prettier
+- eslint-plugin-react
+- prettier
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Como Usar
 
-## Learn More
+1. Clone este repositório para sua máquina local.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Instale as dependências necessárias usando `npm install`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Execute a aplicação usando `npm start`.
+
+4. Acesse a aplicação em seu navegador em http://localhost:3000.
+
+5. Configure a duração dos intervalos de trabalho e descanso de acordo com suas preferências.
+
+6. Comece a usar a técnica Pomodoro, alternando entre os intervalos de trabalho e descanso.
+
+7. Observe o feedback sonoro ao iniciar e concluir cada intervalo.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Foi desenvolvido por **Erick Staviasz** durante o curso de React ministrado por Otávio Miranda.
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão, entre em contato com staviasz_developer@outlook.com
+
